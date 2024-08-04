@@ -75,7 +75,11 @@ body {
 .video-container.active {
   display: flex;
 }
-
+#video {
+  border: 1px solid gray;
+  padding: 2rem;
+  border-radius: 3rem;
+}
 h2 {
   position: absolute;
   cursor: pointer;
