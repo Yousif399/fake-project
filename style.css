@@ -1,0 +1,96 @@
+html {
+  font-size: 62.5%;
+}
+
+span {
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+h1 {
+  text-align: center;
+  padding: 5rem;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  padding: 2rem;
+  max-width: 100px;
+  width: 100%;
+  border-radius: 1.7rem;
+  border: 1px solid gray;
+  font-size: 2rem;
+  transition: border-color 4s, box-shadow 4s;
+}
+
+input:focus {
+  border-color: rgb(255, 0, 242);
+  box-shadow: 2px 2px 2px 4px rgb(135, 208, 222);
+  outline: none;
+}
+
+button {
+  padding: 2rem;
+  border-radius: 1rem;
+  background-color: rgba(187, 170, 238, 0.637);
+  font-size: 2rem;
+  cursor: pointer;
+  border: #fff;
+  transition: border-color 3s, box-shadow 3s, background-color 3s, color 3s;
+}
+button:hover {
+  background-color: aquamarine;
+}
+button:focus {
+  border: none;
+  border-color: blueviolet;
+  box-shadow: 2px 0 5px 8px rgb(255, 0, 132);
+  background-color: rgb(127, 237, 106);
+  color: #fff;
+}
+
+body {
+  position: relative;
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: cadetblue; */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: none;
+}
+
+.video-container.active {
+  display: flex;
+}
+
+h2 {
+  position: absolute;
+  cursor: pointer;
+  right: 50;
+  top: 40;
+  position: fixed;
+  padding: 3rem;
+  background-color: rgba(20, 79, 111, 0.397);
+  border-radius: 4rem;
+  color: #fff;
+  font-size: 2.5rem;
+  transition: background-color 1s, box-shadow 1s;
+}
+
+h2:hover {
+    background-color: rgba(154, 7, 29, 0.81);
+    box-shadow: 2px 2px 4px 10px black;
+}
