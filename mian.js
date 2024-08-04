@@ -8,6 +8,7 @@ video.pause()
 function openPopUp() {
   popUPContainer.classList.add("active");
   video.play()
+  
   console.log(popUp, popUPContainer);
 }
 

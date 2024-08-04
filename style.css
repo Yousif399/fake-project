@@ -98,3 +98,11 @@ h2:hover {
     background-color: rgba(154, 7, 29, 0.81);
     box-shadow: 2px 2px 4px 10px black;
 }
+
+@media screen and (max-width: 762px) {
+  video {
+    margin-top: 5rem;
+    width: 100%;
+    
+  }
+}
