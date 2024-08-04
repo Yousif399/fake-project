@@ -25,3 +25,14 @@ popUp.addEventListener("click", () => {
 closePopUpBtn.addEventListener('click', ()=> {
     closePopUp()
 })
+
+video.addEventListener('webkitbeginfullscreen', function(e) {
+  e.preventDefault();
+  video.webkitExitFullscreen();
+})
+
+video.addEventListener('mozfullscreenchange', function(e) {
+  if (document.mozFullScreen) {
+    document.mozCancelFullScreen();
+  }
+})
